@@ -1,31 +1,24 @@
 package com.InDemo;
 
-abstract class Vehicle
+abstract class Mobile
 {
-	String vmodel="45435";
-	public abstract void vname();
-	
-	public void vcolor()
-	{
-		System.out.println("White");
-	}
+	public abstract void ringing();
 }
-class Car1 extends Vehicle
+class Apple extends Mobile
 {
-	public void vname()
+	public void ringing()
 	{
-		super.vcolor();
-		System.out.println("XUV700");
-		System.out.println("vmodel ="+vmodel);
+		System.out.println("Apple is ringing");
 	}
 }
 
 public class AbstractDemo {
 
 	public static void main(String[] args) {
-		Car1 c=new Car1();
-		c.vname();
-		
+		Apple a=new Apple();
+		a.ringing();
+				
+
 	}
 
 }
