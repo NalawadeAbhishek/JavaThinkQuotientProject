@@ -2,7 +2,7 @@ package com.array_two_d;
 
 public class Pattern {
 
-	/*public static void pattern(int a[][])
+	public static void pattern(int a[][])
 	{
 		for(int i=0;i<a.length;i++)
 		{
@@ -19,9 +19,9 @@ public class Pattern {
 			}
 			System.out.println();
 		}
-	}*/
+	}
 	
-	public static void pattern(int a[][])
+	/*public static void pattern(int a[][])
 	{
 		for(int i=0;i<a.length;i++)
 		{
@@ -39,15 +39,15 @@ public class Pattern {
 			System.out.println();
 		}
 		
-	}
+	}*/
 	
 	public static void main(String[] args) {
-		/*int a[][]= {{1,2,3,4,5},{4,5,6,7,8},{6,8,7,9,3},{9,5,7,2,8},{2,5,6,3,7}};
+		int a[][]= {{1,2,3,4,5},{4,5,6,7,8},{6,8,7,9,3},{9,5,7,2,8},{2,5,6,3,7}};
 
-		Pattern.pattern(a);*/
-		
-		int a[][]=new int[4][4];
 		Pattern.pattern(a);
+		
+		//int a[][]=new int[4][4];
+		//Pattern.pattern(a);
 	}
 
 }

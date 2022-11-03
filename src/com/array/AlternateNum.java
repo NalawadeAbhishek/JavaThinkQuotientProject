@@ -6,12 +6,9 @@ public class AlternateNum {
 
 	public void display(int a[])
 	{
-		for(int i=0;i<a.length;i++)
+		for(int i=0;i<a.length;i=i+2)
 		{
-			if(i%2!=0)
-			{
 				System.out.println(a[i]);
-			}
 		}
 	}
 	
@@ -28,7 +25,7 @@ public class AlternateNum {
 			Arr[i]=sc.nextInt();
 		}
 		
-		System.out.println("....display alternate number");
+		System.out.println("....display alternate number..........");
 		a.display(Arr);
 		
 
